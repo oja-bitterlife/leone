@@ -1,0 +1,15 @@
+ref/
+backup/
+*.blend1
+*.fbx
+*.glb
+*.spp
+*.painter_lock
+tmp.*
+*.fsbak
+*.mp4
+*.avi
+*~
+*.tpc
+uv.png
+BL_proxy/
