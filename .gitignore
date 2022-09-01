@@ -13,3 +13,4 @@ tmp.*
 *.tpc
 uv.png
 BL_proxy/
+*.obj
