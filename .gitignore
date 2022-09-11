@@ -14,3 +14,5 @@ tmp.*
 uv.png
 BL_proxy/
 *.obj
+*.mtl
+tmp/
