@@ -12,6 +12,7 @@ tmp.*
 *~
 *.tpc
 uv.png
+normal.png
 BL_proxy/
 *.obj
 *.mtl
