@@ -973,7 +973,7 @@
 				<count>0</count>
 				<item_version>0</item_version>
 			</Inputs_map>
-			<KnobsAge>15</KnobsAge>
+			<KnobsAge>17</KnobsAge>
 			<MasterNode></MasterNode>
 			<HasRotoContext>0</HasRotoContext>
 			<HasTrackerContext>0</HasTrackerContext>
@@ -1290,7 +1290,7 @@
 			<PythonModuleVersion>0</PythonModuleVersion>
 			<Plugin_major_version>1</Plugin_major_version>
 			<Plugin_minor_version>0</Plugin_minor_version>
-			<KnobsCount>26</KnobsCount>
+			<KnobsCount>27</KnobsCount>
 			<item>
 				<Name>encodingPluginChoice</Name>
 				<Type>Choice</Type>
@@ -1640,6 +1640,24 @@
 				<UserKnob>0</UserKnob>
 			</item>
 			<item>
+				<Name>prefPixelCoding</Name>
+				<Type>Choice</Type>
+				<Dimension>1</Dimension>
+				<Secret>0</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>1</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>0</Value>
+					<Default>1</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<ChoiceLabel>yuv420</ChoiceLabel>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
 				<Name>DNxHDCodecProfile</Name>
 				<Type>Choice</Type>
 				<Dimension>1</Dimension>
@@ -1778,7 +1796,7 @@
 					<second>Merge2</second>
 				</item>
 			</Inputs_map>
-			<KnobsAge>3</KnobsAge>
+			<KnobsAge>4</KnobsAge>
 			<MasterNode></MasterNode>
 			<HasRotoContext>0</HasRotoContext>
 			<HasTrackerContext>0</HasTrackerContext>
@@ -1867,7 +1885,7 @@
 		<item>
 			<Enabled>0</Enabled>
 			<HasAnimation>0</HasAnimation>
-			<Value>金 10 7 19:50:07 2022</Value>
+			<Value>金 10 7 20:21:01 2022</Value>
 			<Default></Default>
 			<HasMaster>0</HasMaster>
 			<Expression></Expression>
@@ -2109,8 +2127,8 @@
 	<OpenedPanels>
 		<count>7</count>
 		<item_version>0</item_version>
-		<item>Write1</item>
 		<item>Read3</item>
+		<item>Write1</item>
 		<item>Merge1</item>
 		<item>Read2</item>
 		<item>Read1</item>
