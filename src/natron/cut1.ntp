@@ -82,7 +82,7 @@
 				<item>
 					<Enabled>1</Enabled>
 					<HasAnimation>0</HasAnimation>
-					<Value>&lt;font size=&quot;6&quot; color=&quot;#000000&quot; face=&quot;Droid Sans&quot;&gt;&lt;Natron&gt;(0072.png)&lt;/Natron&gt;&lt;/font&gt;</Value>
+					<Value>&lt;font size=&quot;6&quot; color=&quot;#000000&quot; face=&quot;Droid Sans&quot;&gt;&lt;Natron&gt;(0035.png)&lt;/Natron&gt;&lt;/font&gt;</Value>
 					<Default></Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
@@ -403,7 +403,7 @@
 			<PythonModuleVersion>0</PythonModuleVersion>
 			<Plugin_major_version>1</Plugin_major_version>
 			<Plugin_minor_version>0</Plugin_minor_version>
-			<KnobsCount>17</KnobsCount>
+			<KnobsCount>16</KnobsCount>
 			<item>
 				<Name>decodingPluginID</Name>
 				<Type>String</Type>
@@ -434,7 +434,7 @@
 				<item>
 					<Enabled>1</Enabled>
 					<HasAnimation>0</HasAnimation>
-					<Value>&lt;font size=&quot;6&quot; color=&quot;#000000&quot; face=&quot;Droid Sans&quot;&gt;&lt;Natron&gt;(0072.png)&lt;/Natron&gt;&lt;/font&gt;</Value>
+					<Value>&lt;font size=&quot;6&quot; color=&quot;#000000&quot; face=&quot;Droid Sans&quot;&gt;&lt;Natron&gt;(0035.png)&lt;/Natron&gt;&lt;/font&gt;</Value>
 					<Default></Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
@@ -615,24 +615,6 @@
 				<UserKnob>0</UserKnob>
 			</item>
 			<item>
-				<Name>outputPremult</Name>
-				<Type>Choice</Type>
-				<Dimension>1</Dimension>
-				<Secret>0</Secret>
-				<MasterIsAlias>0</MasterIsAlias>
-				<item>
-					<Enabled>1</Enabled>
-					<HasAnimation>0</HasAnimation>
-					<Value>0</Value>
-					<Default>1</Default>
-					<HasMaster>0</HasMaster>
-					<Expression></Expression>
-					<ExprHasRet>0</ExprHasRet>
-				</item>
-				<ChoiceLabel>opaque</ChoiceLabel>
-				<UserKnob>0</UserKnob>
-			</item>
-			<item>
 				<Name>frameRate</Name>
 				<Type>Double</Type>
 				<Dimension>1</Dimension>
@@ -729,7 +711,7 @@
 				<count>0</count>
 				<item_version>0</item_version>
 			</Inputs_map>
-			<KnobsAge>44</KnobsAge>
+			<KnobsAge>59</KnobsAge>
 			<MasterNode></MasterNode>
 			<HasRotoContext>0</HasRotoContext>
 			<HasTrackerContext>0</HasTrackerContext>
@@ -754,7 +736,7 @@
 			<PythonModuleVersion>0</PythonModuleVersion>
 			<Plugin_major_version>1</Plugin_major_version>
 			<Plugin_minor_version>0</Plugin_minor_version>
-			<KnobsCount>16</KnobsCount>
+			<KnobsCount>15</KnobsCount>
 			<item>
 				<Name>decodingPluginID</Name>
 				<Type>String</Type>
@@ -785,7 +767,7 @@
 				<item>
 					<Enabled>1</Enabled>
 					<HasAnimation>0</HasAnimation>
-					<Value>&lt;font size=&quot;6&quot; color=&quot;#000000&quot; face=&quot;Droid Sans&quot;&gt;&lt;Natron&gt;(0072.png)&lt;/Natron&gt;&lt;/font&gt;</Value>
+					<Value>&lt;font size=&quot;6&quot; color=&quot;#000000&quot; face=&quot;Droid Sans&quot;&gt;&lt;Natron&gt;(0065.png)&lt;/Natron&gt;&lt;/font&gt;</Value>
 					<Default></Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
@@ -966,24 +948,6 @@
 				<UserKnob>0</UserKnob>
 			</item>
 			<item>
-				<Name>outputPremult</Name>
-				<Type>Choice</Type>
-				<Dimension>1</Dimension>
-				<Secret>0</Secret>
-				<MasterIsAlias>0</MasterIsAlias>
-				<item>
-					<Enabled>1</Enabled>
-					<HasAnimation>0</HasAnimation>
-					<Value>0</Value>
-					<Default>1</Default>
-					<HasMaster>0</HasMaster>
-					<Expression></Expression>
-					<ExprHasRet>0</ExprHasRet>
-				</item>
-				<ChoiceLabel>opaque</ChoiceLabel>
-				<UserKnob>0</UserKnob>
-			</item>
-			<item>
 				<Name>frameRate</Name>
 				<Type>Double</Type>
 				<Dimension>1</Dimension>
@@ -1063,7 +1027,7 @@
 				<count>0</count>
 				<item_version>0</item_version>
 			</Inputs_map>
-			<KnobsAge>20</KnobsAge>
+			<KnobsAge>21</KnobsAge>
 			<MasterNode></MasterNode>
 			<HasRotoContext>0</HasRotoContext>
 			<HasTrackerContext>0</HasTrackerContext>
@@ -1088,42 +1052,7 @@
 			<PythonModuleVersion>0</PythonModuleVersion>
 			<Plugin_major_version>2</Plugin_major_version>
 			<Plugin_minor_version>0</Plugin_minor_version>
-			<KnobsCount>5</KnobsCount>
-			<item>
-				<Name>operation</Name>
-				<Type>Choice</Type>
-				<Dimension>1</Dimension>
-				<Secret>0</Secret>
-				<MasterIsAlias>0</MasterIsAlias>
-				<item>
-					<Enabled>1</Enabled>
-					<HasAnimation>0</HasAnimation>
-					<Value>22</Value>
-					<Default>28</Default>
-					<HasMaster>0</HasMaster>
-					<Expression></Expression>
-					<ExprHasRet>0</ExprHasRet>
-				</item>
-				<ChoiceLabel>matte</ChoiceLabel>
-				<UserKnob>0</UserKnob>
-			</item>
-			<item>
-				<Name>maskInvert</Name>
-				<Type>Bool</Type>
-				<Dimension>1</Dimension>
-				<Secret>0</Secret>
-				<MasterIsAlias>0</MasterIsAlias>
-				<item>
-					<Enabled>1</Enabled>
-					<HasAnimation>0</HasAnimation>
-					<Value>1</Value>
-					<Default>0</Default>
-					<HasMaster>0</HasMaster>
-					<Expression></Expression>
-					<ExprHasRet>0</ExprHasRet>
-				</item>
-				<UserKnob>0</UserKnob>
-			</item>
+			<KnobsCount>3</KnobsCount>
 			<item>
 				<Name>userTextArea</Name>
 				<Type>String</Type>
@@ -1133,7 +1062,7 @@
 				<item>
 					<Enabled>1</Enabled>
 					<HasAnimation>0</HasAnimation>
-					<Value>&lt;font size=&quot;6&quot; color=&quot;#000000&quot; face=&quot;Droid Sans&quot;&gt;&lt;Natron&gt;(matte)&lt;/Natron&gt;&lt;/font&gt;</Value>
+					<Value>&lt;font size=&quot;6&quot; color=&quot;#000000&quot; face=&quot;Droid Sans&quot;&gt;&lt;Natron&gt;(over)&lt;/Natron&gt;&lt;/font&gt;</Value>
 					<Default></Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
@@ -1193,7 +1122,7 @@
 					<second>Read1</second>
 				</item>
 			</Inputs_map>
-			<KnobsAge>1139</KnobsAge>
+			<KnobsAge>1342</KnobsAge>
 			<MasterNode></MasterNode>
 			<HasRotoContext>0</HasRotoContext>
 			<HasTrackerContext>0</HasTrackerContext>
@@ -1218,25 +1147,7 @@
 			<PythonModuleVersion>0</PythonModuleVersion>
 			<Plugin_major_version>2</Plugin_major_version>
 			<Plugin_minor_version>0</Plugin_minor_version>
-			<KnobsCount>5</KnobsCount>
-			<item>
-				<Name>operation</Name>
-				<Type>Choice</Type>
-				<Dimension>1</Dimension>
-				<Secret>0</Secret>
-				<MasterIsAlias>0</MasterIsAlias>
-				<item>
-					<Enabled>1</Enabled>
-					<HasAnimation>0</HasAnimation>
-					<Value>22</Value>
-					<Default>28</Default>
-					<HasMaster>0</HasMaster>
-					<Expression></Expression>
-					<ExprHasRet>0</ExprHasRet>
-				</item>
-				<ChoiceLabel>matte</ChoiceLabel>
-				<UserKnob>0</UserKnob>
-			</item>
+			<KnobsCount>4</KnobsCount>
 			<item>
 				<Name>mix</Name>
 				<Type>Double</Type>
@@ -1263,7 +1174,7 @@
 				<item>
 					<Enabled>1</Enabled>
 					<HasAnimation>0</HasAnimation>
-					<Value>&lt;font size=&quot;6&quot; color=&quot;#000000&quot; face=&quot;Droid Sans&quot;&gt;&lt;Natron&gt;(matte)&lt;/Natron&gt;&lt;/font&gt;</Value>
+					<Value>&lt;font size=&quot;6&quot; color=&quot;#000000&quot; face=&quot;Droid Sans&quot;&gt;&lt;Natron&gt;(over)&lt;/Natron&gt;&lt;/font&gt;</Value>
 					<Default></Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
@@ -1323,7 +1234,7 @@
 					<second>Merge1</second>
 				</item>
 			</Inputs_map>
-			<KnobsAge>401</KnobsAge>
+			<KnobsAge>402</KnobsAge>
 			<MasterNode></MasterNode>
 			<HasRotoContext>0</HasRotoContext>
 			<HasTrackerContext>0</HasTrackerContext>
@@ -1943,7 +1854,7 @@
 		<item>
 			<Enabled>0</Enabled>
 			<HasAnimation>0</HasAnimation>
-			<Value>金 10 7 23:21:24 2022</Value>
+			<Value>金 10 7 23:37:17 2022</Value>
 			<Default></Default>
 			<HasMaster>0</HasMaster>
 			<Expression></Expression>
@@ -1969,7 +1880,7 @@
 			<Name></Name>
 		</item>
 	</AdditionalFormats>
-	<Timeline_current_time>72</Timeline_current_time>
+	<Timeline_current_time>35</Timeline_current_time>
 	<CreationDate>1665132844742</CreationDate>
 </Project>
 <ProjectGui class_id="12" tracking_level="0" version="12">
@@ -1992,8 +1903,8 @@
 		</item>
 		<item>
 			<Name>Read1</Name>
-			<X_position>1.99174690589523493e+001</X_position>
-			<Y_position>-1.75636154626331461e+002</Y_position>
+			<X_position>6.28211070589138103e+001</X_position>
+			<Y_position>-2.61443430626254553e+002</Y_position>
 			<Preview_enabled>1</Preview_enabled>
 			<r>6.999923587e-001</r>
 			<g>6.999923587e-001</g>
@@ -2006,8 +1917,8 @@
 		</item>
 		<item>
 			<Name>Read2</Name>
-			<X_position>-2.18558349169620783e+002</X_position>
-			<Y_position>-1.72910336397761512e+002</Y_position>
+			<X_position>-2.29590713226753792e+002</X_position>
+			<Y_position>-2.58717612397684547e+002</Y_position>
 			<Preview_enabled>1</Preview_enabled>
 			<r>6.999923587e-001</r>
 			<g>6.999923587e-001</g>
@@ -2034,8 +1945,8 @@
 		</item>
 		<item>
 			<Name>Merge1</Name>
-			<X_position>-3.71833491696193050e+001</X_position>
-			<Y_position>-8.63615462633003972e+000</Y_position>
+			<X_position>-3.68083491696189640e+001</X_position>
+			<Y_position>-1.10877910834707336e+001</Y_position>
 			<Preview_enabled>0</Preview_enabled>
 			<r>3.000076413e-001</r>
 			<g>3.700007498e-001</g>
@@ -2137,9 +2048,9 @@
 		<item class_id="21" tracking_level="0" version="0">
 			<first>Viewer1</first>
 			<second class_id="22" tracking_level="0" version="14">
-				<zoomLeft>-2.70852575163496454e+002</zoomLeft>
-				<zoomBottom>2.18198416434905369e+002</zoomBottom>
-				<zoomFactor>7.52172197762247752e-001</zoomFactor>
+				<zoomLeft>-6.72235449616520327e+002</zoomLeft>
+				<zoomBottom>1.07970894000948192e+001</zoomBottom>
+				<zoomFactor>5.22404531074553868e-001</zoomFactor>
 				<UserRoIEnabled>0</UserRoIEnabled>
 				<UserRoI class_id="23" tracking_level="0" version="0">
 					<Left>4.80000000000000000e+002</Left>
@@ -2185,12 +2096,12 @@
 	<OpenedPanels>
 		<count>7</count>
 		<item_version>0</item_version>
-		<item>Write1</item>
-		<item>Read2</item>
-		<item>Read3</item>
-		<item>Read1</item>
 		<item>Merge2</item>
+		<item>Read3</item>
+		<item>Read2</item>
+		<item>Read1</item>
 		<item>Merge1</item>
+		<item>Write1</item>
 		<item>Natron_Project_Settings_Panel</item>
 	</OpenedPanels>
 	<ScriptEditorInput></ScriptEditorInput>
