@@ -82,7 +82,7 @@
 				<item>
 					<Enabled>1</Enabled>
 					<HasAnimation>0</HasAnimation>
-					<Value>&lt;font size=&quot;6&quot; color=&quot;#000000&quot; face=&quot;Droid Sans&quot;&gt;&lt;Natron&gt;(0120.png)&lt;/Natron&gt;&lt;/font&gt;</Value>
+					<Value>&lt;font size=&quot;6&quot; color=&quot;#000000&quot; face=&quot;Droid Sans&quot;&gt;&lt;Natron&gt;(0117.png)&lt;/Natron&gt;&lt;/font&gt;</Value>
 					<Default></Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
@@ -434,7 +434,7 @@
 				<item>
 					<Enabled>1</Enabled>
 					<HasAnimation>0</HasAnimation>
-					<Value>&lt;font size=&quot;6&quot; color=&quot;#000000&quot; face=&quot;Droid Sans&quot;&gt;&lt;Natron&gt;(0120.png)&lt;/Natron&gt;&lt;/font&gt;</Value>
+					<Value>&lt;font size=&quot;6&quot; color=&quot;#000000&quot; face=&quot;Droid Sans&quot;&gt;&lt;Natron&gt;(0108.png)&lt;/Natron&gt;&lt;/font&gt;</Value>
 					<Default></Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
@@ -493,8 +493,8 @@
 				<item>
 					<Enabled>1</Enabled>
 					<HasAnimation>0</HasAnimation>
-					<Value>120</Value>
-					<Default>120</Default>
+					<Value>108</Value>
+					<Default>108</Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
 					<ExprHasRet>0</ExprHasRet>
@@ -711,7 +711,7 @@
 				<count>0</count>
 				<item_version>0</item_version>
 			</Inputs_map>
-			<KnobsAge>59</KnobsAge>
+			<KnobsAge>63</KnobsAge>
 			<MasterNode></MasterNode>
 			<HasRotoContext>0</HasRotoContext>
 			<HasTrackerContext>0</HasTrackerContext>
@@ -1044,7 +1044,7 @@
 				<count>0</count>
 				<item_version>0</item_version>
 			</Inputs_map>
-			<KnobsAge>27</KnobsAge>
+			<KnobsAge>31</KnobsAge>
 			<MasterNode></MasterNode>
 			<HasRotoContext>0</HasRotoContext>
 			<HasTrackerContext>0</HasTrackerContext>
@@ -1871,7 +1871,7 @@
 		<item>
 			<Enabled>0</Enabled>
 			<HasAnimation>0</HasAnimation>
-			<Value>土 10 8 18:33:11 2022</Value>
+			<Value>土 10 8 21:26:02 2022</Value>
 			<Default></Default>
 			<HasMaster>0</HasMaster>
 			<Expression></Expression>
@@ -1897,7 +1897,7 @@
 			<Name></Name>
 		</item>
 	</AdditionalFormats>
-	<Timeline_current_time>120</Timeline_current_time>
+	<Timeline_current_time>117</Timeline_current_time>
 	<CreationDate>1665132844742</CreationDate>
 </Project>
 <ProjectGui class_id="12" tracking_level="0" version="12">
@@ -2035,7 +2035,7 @@
 							<item>dopeSheetEditor</item>
 							<item>progress</item>
 						</Tabs>
-						<Index>0</Index>
+						<Index>3</Index>
 						<Name>pane3</Name>
 						<IsAnchor>0</IsAnchor>
 					</Child>
@@ -2114,8 +2114,8 @@
 		<count>7</count>
 		<item_version>0</item_version>
 		<item>Read3</item>
-		<item>Merge2</item>
 		<item>Read2</item>
+		<item>Merge2</item>
 		<item>Read1</item>
 		<item>Merge1</item>
 		<item>Write1</item>
