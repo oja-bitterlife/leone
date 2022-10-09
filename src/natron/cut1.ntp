@@ -82,7 +82,7 @@
 				<item>
 					<Enabled>1</Enabled>
 					<HasAnimation>0</HasAnimation>
-					<Value>&lt;font size=&quot;6&quot; color=&quot;#000000&quot; face=&quot;Droid Sans&quot;&gt;&lt;Natron&gt;(0065.png)&lt;/Natron&gt;&lt;/font&gt;</Value>
+					<Value>&lt;font size=&quot;6&quot; color=&quot;#000000&quot; face=&quot;Droid Sans&quot;&gt;&lt;Natron&gt;(0127.png)&lt;/Natron&gt;&lt;/font&gt;</Value>
 					<Default></Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
@@ -434,7 +434,7 @@
 				<item>
 					<Enabled>1</Enabled>
 					<HasAnimation>0</HasAnimation>
-					<Value>&lt;font size=&quot;6&quot; color=&quot;#000000&quot; face=&quot;Droid Sans&quot;&gt;&lt;Natron&gt;(0065.png)&lt;/Natron&gt;&lt;/font&gt;</Value>
+					<Value>&lt;font size=&quot;6&quot; color=&quot;#000000&quot; face=&quot;Droid Sans&quot;&gt;&lt;Natron&gt;(0127.png)&lt;/Natron&gt;&lt;/font&gt;</Value>
 					<Default></Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
@@ -711,7 +711,7 @@
 				<count>0</count>
 				<item_version>0</item_version>
 			</Inputs_map>
-			<KnobsAge>68</KnobsAge>
+			<KnobsAge>74</KnobsAge>
 			<MasterNode></MasterNode>
 			<HasRotoContext>0</HasRotoContext>
 			<HasTrackerContext>0</HasTrackerContext>
@@ -767,7 +767,7 @@
 				<item>
 					<Enabled>1</Enabled>
 					<HasAnimation>0</HasAnimation>
-					<Value>&lt;font size=&quot;6&quot; color=&quot;#000000&quot; face=&quot;Droid Sans&quot;&gt;&lt;Natron&gt;(0065.png)&lt;/Natron&gt;&lt;/font&gt;</Value>
+					<Value>&lt;font size=&quot;6&quot; color=&quot;#000000&quot; face=&quot;Droid Sans&quot;&gt;&lt;Natron&gt;(0127.png)&lt;/Natron&gt;&lt;/font&gt;</Value>
 					<Default></Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
@@ -1312,7 +1312,7 @@
 			<PythonModuleVersion>0</PythonModuleVersion>
 			<Plugin_major_version>1</Plugin_major_version>
 			<Plugin_minor_version>0</Plugin_minor_version>
-			<KnobsCount>27</KnobsCount>
+			<KnobsCount>28</KnobsCount>
 			<item>
 				<Name>encodingPluginChoice</Name>
 				<Type>Choice</Type>
@@ -1395,7 +1395,7 @@
 				<Name>NatronOfxParamProcessR</Name>
 				<Type>Bool</Type>
 				<Dimension>1</Dimension>
-				<Secret>0</Secret>
+				<Secret>1</Secret>
 				<MasterIsAlias>0</MasterIsAlias>
 				<item>
 					<Enabled>0</Enabled>
@@ -1412,7 +1412,7 @@
 				<Name>NatronOfxParamProcessG</Name>
 				<Type>Bool</Type>
 				<Dimension>1</Dimension>
-				<Secret>0</Secret>
+				<Secret>1</Secret>
 				<MasterIsAlias>0</MasterIsAlias>
 				<item>
 					<Enabled>0</Enabled>
@@ -1429,7 +1429,7 @@
 				<Name>NatronOfxParamProcessB</Name>
 				<Type>Bool</Type>
 				<Dimension>1</Dimension>
-				<Secret>0</Secret>
+				<Secret>1</Secret>
 				<MasterIsAlias>0</MasterIsAlias>
 				<item>
 					<Enabled>0</Enabled>
@@ -1446,7 +1446,7 @@
 				<Name>NatronOfxParamProcessA</Name>
 				<Type>Bool</Type>
 				<Dimension>1</Dimension>
-				<Secret>0</Secret>
+				<Secret>1</Secret>
 				<MasterIsAlias>0</MasterIsAlias>
 				<item>
 					<Enabled>0</Enabled>
@@ -1734,6 +1734,24 @@
 				<UserKnob>0</UserKnob>
 			</item>
 			<item>
+				<Name>crf</Name>
+				<Type>Choice</Type>
+				<Dimension>1</Dimension>
+				<Secret>0</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>1</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>3</Value>
+					<Default>4</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<ChoiceLabel>crf20</ChoiceLabel>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
 				<Name>qscale</Name>
 				<Type>Double</Type>
 				<Dimension>1</Dimension>
@@ -1818,7 +1836,7 @@
 					<second>Merge2</second>
 				</item>
 			</Inputs_map>
-			<KnobsAge>4</KnobsAge>
+			<KnobsAge>5</KnobsAge>
 			<MasterNode></MasterNode>
 			<HasRotoContext>0</HasRotoContext>
 			<HasTrackerContext>0</HasTrackerContext>
@@ -1938,7 +1956,7 @@
 			<PythonModuleVersion>0</PythonModuleVersion>
 			<Plugin_major_version>1</Plugin_major_version>
 			<Plugin_minor_version>0</Plugin_minor_version>
-			<KnobsCount>15</KnobsCount>
+			<KnobsCount>16</KnobsCount>
 			<item>
 				<Name>decodingPluginID</Name>
 				<Type>String</Type>
@@ -1969,7 +1987,7 @@
 				<item>
 					<Enabled>1</Enabled>
 					<HasAnimation>0</HasAnimation>
-					<Value>&lt;font size=&quot;6&quot; color=&quot;#000000&quot; face=&quot;Droid Sans&quot;&gt;&lt;Natron&gt;(0065.png)&lt;/Natron&gt;&lt;/font&gt;</Value>
+					<Value>&lt;font size=&quot;6&quot; color=&quot;#000000&quot; face=&quot;Droid Sans&quot;&gt;&lt;Natron&gt;(0127.png)&lt;/Natron&gt;&lt;/font&gt;</Value>
 					<Default></Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
@@ -2205,6 +2223,23 @@
 				<UserKnob>0</UserKnob>
 			</item>
 			<item>
+				<Name>ocioInputSpaceSet</Name>
+				<Type>Bool</Type>
+				<Dimension>1</Dimension>
+				<Secret>1</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>0</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>1</Value>
+					<Default>0</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
 				<Name>ocioOutputSpace</Name>
 				<Type>String</Type>
 				<Dimension>1</Dimension>
@@ -2229,7 +2264,7 @@
 				<count>0</count>
 				<item_version>0</item_version>
 			</Inputs_map>
-			<KnobsAge>8</KnobsAge>
+			<KnobsAge>27</KnobsAge>
 			<MasterNode></MasterNode>
 			<HasRotoContext>0</HasRotoContext>
 			<HasTrackerContext>0</HasTrackerContext>
@@ -2380,7 +2415,7 @@
 				<item>
 					<Enabled>1</Enabled>
 					<HasAnimation>0</HasAnimation>
-					<Value>&lt;font size=&quot;6&quot; color=&quot;#000000&quot; face=&quot;Droid Sans&quot;&gt;&lt;Natron&gt;(0065.png)&lt;/Natron&gt;&lt;/font&gt;</Value>
+					<Value>&lt;font size=&quot;6&quot; color=&quot;#000000&quot; face=&quot;Droid Sans&quot;&gt;&lt;Natron&gt;(0127.png)&lt;/Natron&gt;&lt;/font&gt;</Value>
 					<Default></Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
@@ -2422,8 +2457,8 @@
 				<item>
 					<Enabled>1</Enabled>
 					<HasAnimation>0</HasAnimation>
-					<Value>32</Value>
-					<Default>32</Default>
+					<Value>1</Value>
+					<Default>1</Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
 					<ExprHasRet>0</ExprHasRet>
@@ -2492,8 +2527,8 @@
 				<item>
 					<Enabled>1</Enabled>
 					<HasAnimation>0</HasAnimation>
-					<Value>32</Value>
-					<Default>32</Default>
+					<Value>1</Value>
+					<Default>1</Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
 					<ExprHasRet>0</ExprHasRet>
@@ -2658,7 +2693,7 @@
 				<count>0</count>
 				<item_version>0</item_version>
 			</Inputs_map>
-			<KnobsAge>7</KnobsAge>
+			<KnobsAge>22</KnobsAge>
 			<MasterNode></MasterNode>
 			<HasRotoContext>0</HasRotoContext>
 			<HasTrackerContext>0</HasTrackerContext>
@@ -2747,7 +2782,7 @@
 		<item>
 			<Enabled>0</Enabled>
 			<HasAnimation>0</HasAnimation>
-			<Value>日 10 9 14:34:41 2022</Value>
+			<Value>日 10 9 16:15:27 2022</Value>
 			<Default></Default>
 			<HasMaster>0</HasMaster>
 			<Expression></Expression>
@@ -2773,7 +2808,7 @@
 			<Name></Name>
 		</item>
 	</AdditionalFormats>
-	<Timeline_current_time>65</Timeline_current_time>
+	<Timeline_current_time>127</Timeline_current_time>
 	<CreationDate>1665132844742</CreationDate>
 </Project>
 <ProjectGui class_id="12" tracking_level="0" version="12">
@@ -2894,7 +2929,7 @@
 		</item>
 		<item>
 			<Name>Read4</Name>
-			<X_position>-2.89811966865619979e+002</X_position>
+			<X_position>-2.88259325100790193e+002</X_position>
 			<Y_position>-6.29451797865521939e+002</Y_position>
 			<Preview_enabled>1</Preview_enabled>
 			<r>6.999923587e-001</r>
@@ -2997,9 +3032,9 @@
 		<item class_id="21" tracking_level="0" version="0">
 			<first>Viewer1</first>
 			<second class_id="22" tracking_level="0" version="14">
-				<zoomLeft>-2.19177762569159313e+002</zoomLeft>
-				<zoomBottom>-6.27548906848066679e+001</zoomBottom>
-				<zoomFactor>7.52172197762168815e-001</zoomFactor>
+				<zoomLeft>1.77079267569879448e+001</zoomLeft>
+				<zoomBottom>7.31321723448683372e+001</zoomBottom>
+				<zoomFactor>1.08299790953694064e+000</zoomFactor>
 				<UserRoIEnabled>0</UserRoIEnabled>
 				<UserRoI class_id="23" tracking_level="0" version="0">
 					<Left>4.80000000000000000e+002</Left>
@@ -3045,12 +3080,12 @@
 	<OpenedPanels>
 		<count>10</count>
 		<item_version>0</item_version>
-		<item>Read4</item>
-		<item>Read3</item>
 		<item>Read5</item>
+		<item>Read4</item>
 		<item>Read2</item>
-		<item>Read1</item>
+		<item>Read3</item>
 		<item>Write1</item>
+		<item>Read1</item>
 		<item>Merge4</item>
 		<item>Merge3</item>
 		<item>Merge2</item>
