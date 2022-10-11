@@ -25,7 +25,7 @@
 				<count>1</count>
 				<item_version>0</item_version>
 				<item class_id="4" tracking_level="0" version="0">
-					<first>1</first>
+					<first>4</first>
 					<second>AppendClip1</second>
 				</item>
 			</Inputs_map>
@@ -51,7 +51,7 @@
 			<PythonModuleVersion>0</PythonModuleVersion>
 			<Plugin_major_version>1</Plugin_major_version>
 			<Plugin_minor_version>0</Plugin_minor_version>
-			<KnobsCount>27</KnobsCount>
+			<KnobsCount>28</KnobsCount>
 			<item class_id="6" tracking_level="0" version="14">
 				<Name>encodingPluginChoice</Name>
 				<Type>Choice</Type>
@@ -134,7 +134,7 @@
 				<Name>NatronOfxParamProcessR</Name>
 				<Type>Bool</Type>
 				<Dimension>1</Dimension>
-				<Secret>0</Secret>
+				<Secret>1</Secret>
 				<MasterIsAlias>0</MasterIsAlias>
 				<item>
 					<Enabled>0</Enabled>
@@ -151,7 +151,7 @@
 				<Name>NatronOfxParamProcessG</Name>
 				<Type>Bool</Type>
 				<Dimension>1</Dimension>
-				<Secret>0</Secret>
+				<Secret>1</Secret>
 				<MasterIsAlias>0</MasterIsAlias>
 				<item>
 					<Enabled>0</Enabled>
@@ -168,7 +168,7 @@
 				<Name>NatronOfxParamProcessB</Name>
 				<Type>Bool</Type>
 				<Dimension>1</Dimension>
-				<Secret>0</Secret>
+				<Secret>1</Secret>
 				<MasterIsAlias>0</MasterIsAlias>
 				<item>
 					<Enabled>0</Enabled>
@@ -473,6 +473,24 @@
 				<UserKnob>0</UserKnob>
 			</item>
 			<item>
+				<Name>crf</Name>
+				<Type>Choice</Type>
+				<Dimension>1</Dimension>
+				<Secret>0</Secret>
+				<MasterIsAlias>0</MasterIsAlias>
+				<item>
+					<Enabled>1</Enabled>
+					<HasAnimation>0</HasAnimation>
+					<Value>3</Value>
+					<Default>4</Default>
+					<HasMaster>0</HasMaster>
+					<Expression></Expression>
+					<ExprHasRet>0</ExprHasRet>
+				</item>
+				<ChoiceLabel>crf20</ChoiceLabel>
+				<UserKnob>0</UserKnob>
+			</item>
+			<item>
 				<Name>qscale</Name>
 				<Type>Double</Type>
 				<Dimension>1</Dimension>
@@ -557,7 +575,7 @@
 					<second>AppendClip1</second>
 				</item>
 			</Inputs_map>
-			<KnobsAge>6</KnobsAge>
+			<KnobsAge>7</KnobsAge>
 			<MasterNode></MasterNode>
 			<HasRotoContext>0</HasRotoContext>
 			<HasTrackerContext>0</HasTrackerContext>
@@ -690,7 +708,7 @@
 				<item>
 					<Enabled>1</Enabled>
 					<HasAnimation>0</HasAnimation>
-					<Value>156</Value>
+					<Value>158</Value>
 					<Default>132</Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
@@ -944,7 +962,7 @@
 				<count>0</count>
 				<item_version>0</item_version>
 			</Inputs_map>
-			<KnobsAge>10</KnobsAge>
+			<KnobsAge>35</KnobsAge>
 			<MasterNode></MasterNode>
 			<HasRotoContext>0</HasRotoContext>
 			<HasTrackerContext>0</HasTrackerContext>
@@ -969,7 +987,7 @@
 			<PythonModuleVersion>0</PythonModuleVersion>
 			<Plugin_major_version>1</Plugin_major_version>
 			<Plugin_minor_version>0</Plugin_minor_version>
-			<KnobsCount>21</KnobsCount>
+			<KnobsCount>20</KnobsCount>
 			<item>
 				<Name>decodingPluginChoice</Name>
 				<Type>Choice</Type>
@@ -1122,33 +1140,15 @@
 				<UserKnob>0</UserKnob>
 			</item>
 			<item>
-				<Name>frameMode</Name>
-				<Type>Choice</Type>
+				<Name>startingTime</Name>
+				<Type>Int</Type>
 				<Dimension>1</Dimension>
 				<Secret>0</Secret>
 				<MasterIsAlias>0</MasterIsAlias>
 				<item>
 					<Enabled>1</Enabled>
 					<HasAnimation>0</HasAnimation>
-					<Value>1</Value>
-					<Default>0</Default>
-					<HasMaster>0</HasMaster>
-					<Expression></Expression>
-					<ExprHasRet>0</ExprHasRet>
-				</item>
-				<ChoiceLabel>timeOffset</ChoiceLabel>
-				<UserKnob>0</UserKnob>
-			</item>
-			<item>
-				<Name>startingTime</Name>
-				<Type>Int</Type>
-				<Dimension>1</Dimension>
-				<Secret>1</Secret>
-				<MasterIsAlias>0</MasterIsAlias>
-				<item>
-					<Enabled>0</Enabled>
-					<HasAnimation>0</HasAnimation>
-					<Value>11</Value>
+					<Value>0</Value>
 					<Default>1</Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
@@ -1160,12 +1160,12 @@
 				<Name>timeOffset</Name>
 				<Type>Int</Type>
 				<Dimension>1</Dimension>
-				<Secret>0</Secret>
+				<Secret>1</Secret>
 				<MasterIsAlias>0</MasterIsAlias>
 				<item>
-					<Enabled>1</Enabled>
+					<Enabled>0</Enabled>
 					<HasAnimation>0</HasAnimation>
-					<Value>10</Value>
+					<Value>-1</Value>
 					<Default>0</Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
@@ -1367,7 +1367,7 @@
 				<count>0</count>
 				<item_version>0</item_version>
 			</Inputs_map>
-			<KnobsAge>15</KnobsAge>
+			<KnobsAge>28</KnobsAge>
 			<MasterNode></MasterNode>
 			<HasRotoContext>0</HasRotoContext>
 			<HasTrackerContext>0</HasTrackerContext>
@@ -1419,7 +1419,7 @@
 				<item>
 					<Enabled>0</Enabled>
 					<HasAnimation>0</HasAnimation>
-					<Value>194</Value>
+					<Value>196</Value>
 					<Default>0</Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
@@ -1496,7 +1496,7 @@
 					<second>Read2</second>
 				</item>
 			</Inputs_map>
-			<KnobsAge>350</KnobsAge>
+			<KnobsAge>435</KnobsAge>
 			<MasterNode></MasterNode>
 			<HasRotoContext>0</HasRotoContext>
 			<HasTrackerContext>0</HasTrackerContext>
@@ -1585,7 +1585,7 @@
 		<item>
 			<Enabled>0</Enabled>
 			<HasAnimation>0</HasAnimation>
-			<Value>火 10 11 15:51:05 2022</Value>
+			<Value>火 10 11 16:14:11 2022</Value>
 			<Default></Default>
 			<HasMaster>0</HasMaster>
 			<Expression></Expression>
@@ -1601,7 +1601,7 @@
 		<count>0</count>
 		<item_version>3</item_version>
 	</AdditionalFormats>
-	<Timeline_current_time>106</Timeline_current_time>
+	<Timeline_current_time>199</Timeline_current_time>
 	<CreationDate>1665408562275</CreationDate>
 </Project>
 <ProjectGui class_id="10" tracking_level="0" version="12">
@@ -1624,7 +1624,7 @@
 		</item>
 		<item>
 			<Name>Write1</Name>
-			<X_position>4.01129322784901547e+002</X_position>
+			<X_position>4.02549430750720035e+002</X_position>
 			<Y_position>2.44484419962750337e+002</Y_position>
 			<Preview_enabled>0</Preview_enabled>
 			<r>7.499961853e-001</r>
@@ -1638,8 +1638,8 @@
 		</item>
 		<item>
 			<Name>Read1</Name>
-			<X_position>-2.02763058412723808e+002</X_position>
-			<Y_position>-2.05752971914619849e+002</Y_position>
+			<X_position>-1.98502734515268173e+002</X_position>
+			<Y_position>-2.07173079880438394e+002</Y_position>
 			<Preview_enabled>1</Preview_enabled>
 			<r>6.999923587e-001</r>
 			<g>6.999923587e-001</g>
@@ -1652,8 +1652,8 @@
 		</item>
 		<item>
 			<Name>Read2</Name>
-			<X_position>3.67264047990785230e+001</X_position>
-			<Y_position>-3.45244596518872754e+002</Y_position>
+			<X_position>3.67264047990784661e+001</X_position>
+			<Y_position>-3.46664704484691299e+002</Y_position>
 			<Preview_enabled>1</Preview_enabled>
 			<r>6.999923587e-001</r>
 			<g>6.999923587e-001</g>
@@ -1711,7 +1711,7 @@
 							<item>dopeSheetEditor</item>
 							<item>progress</item>
 						</Tabs>
-						<Index>3</Index>
+						<Index>0</Index>
 						<Name>pane3</Name>
 						<IsAnchor>0</IsAnchor>
 					</Child>
@@ -1776,7 +1776,7 @@
 				<CheckerboardEnabled>0</CheckerboardEnabled>
 				<Fps>2.40000000000000000e+001</Fps>
 				<FpsLocked>1</FpsLocked>
-				<aInput>0</aInput>
+				<aInput>3</aInput>
 				<bInput>0</bInput>
 				<fullFrame>0</fullFrame>
 			</second>
@@ -1790,9 +1790,9 @@
 		<count>5</count>
 		<item_version>0</item_version>
 		<item>AppendClip1</item>
-		<item>Write1</item>
 		<item>Read1</item>
 		<item>Read2</item>
+		<item>Write1</item>
 		<item>Natron_Project_Settings_Panel</item>
 	</OpenedPanels>
 	<ScriptEditorInput></ScriptEditorInput>

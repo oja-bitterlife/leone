@@ -434,7 +434,7 @@
 				<item>
 					<Enabled>1</Enabled>
 					<HasAnimation>0</HasAnimation>
-					<Value>&lt;font size=&quot;6&quot; color=&quot;#000000&quot; face=&quot;Droid Sans&quot;&gt;&lt;Natron&gt;(0104.png)&lt;/Natron&gt;&lt;/font&gt;</Value>
+					<Value>&lt;font size=&quot;6&quot; color=&quot;#000000&quot; face=&quot;Droid Sans&quot;&gt;&lt;Natron&gt;(0061.png)&lt;/Natron&gt;&lt;/font&gt;</Value>
 					<Default></Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
@@ -767,7 +767,7 @@
 				<item>
 					<Enabled>1</Enabled>
 					<HasAnimation>0</HasAnimation>
-					<Value>&lt;font size=&quot;6&quot; color=&quot;#000000&quot; face=&quot;Droid Sans&quot;&gt;&lt;Natron&gt;(0104.png)&lt;/Natron&gt;&lt;/font&gt;</Value>
+					<Value>&lt;font size=&quot;6&quot; color=&quot;#000000&quot; face=&quot;Droid Sans&quot;&gt;&lt;Natron&gt;(0061.png)&lt;/Natron&gt;&lt;/font&gt;</Value>
 					<Default></Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
@@ -2022,7 +2022,7 @@
 				<item>
 					<Enabled>1</Enabled>
 					<HasAnimation>0</HasAnimation>
-					<Value>&lt;font size=&quot;6&quot; color=&quot;#000000&quot; face=&quot;Droid Sans&quot;&gt;&lt;Natron&gt;(0104.png)&lt;/Natron&gt;&lt;/font&gt;</Value>
+					<Value>&lt;font size=&quot;6&quot; color=&quot;#000000&quot; face=&quot;Droid Sans&quot;&gt;&lt;Natron&gt;(0061.png)&lt;/Natron&gt;&lt;/font&gt;</Value>
 					<Default></Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
@@ -2450,7 +2450,7 @@
 				<item>
 					<Enabled>1</Enabled>
 					<HasAnimation>0</HasAnimation>
-					<Value>&lt;font size=&quot;6&quot; color=&quot;#000000&quot; face=&quot;Droid Sans&quot;&gt;&lt;Natron&gt;(0104.png)&lt;/Natron&gt;&lt;/font&gt;</Value>
+					<Value>&lt;font size=&quot;6&quot; color=&quot;#000000&quot; face=&quot;Droid Sans&quot;&gt;&lt;Natron&gt;(0061.png)&lt;/Natron&gt;&lt;/font&gt;</Value>
 					<Default></Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
@@ -3281,7 +3281,7 @@
 		<item>
 			<Enabled>0</Enabled>
 			<HasAnimation>0</HasAnimation>
-			<Value>火 10 11 15:51:09 2022</Value>
+			<Value>火 10 11 16:00:47 2022</Value>
 			<Default></Default>
 			<HasMaster>0</HasMaster>
 			<Expression></Expression>
@@ -3307,7 +3307,7 @@
 			<Name></Name>
 		</item>
 	</AdditionalFormats>
-	<Timeline_current_time>104</Timeline_current_time>
+	<Timeline_current_time>61</Timeline_current_time>
 	<CreationDate>1665132844742</CreationDate>
 </Project>
 <ProjectGui class_id="12" tracking_level="0" version="12">
@@ -3559,9 +3559,9 @@
 		<item class_id="21" tracking_level="0" version="0">
 			<first>Viewer1</first>
 			<second class_id="22" tracking_level="0" version="14">
-				<zoomLeft>-4.60128541177755551e+002</zoomLeft>
-				<zoomBottom>1.06091674186419368e+002</zoomBottom>
-				<zoomFactor>6.26847799915601578e-001</zoomFactor>
+				<zoomLeft>-7.12736752953316682e+002</zoomLeft>
+				<zoomBottom>1.34828041434107490e+002</zoomBottom>
+				<zoomFactor>5.22404531074383005e-001</zoomFactor>
 				<UserRoIEnabled>0</UserRoIEnabled>
 				<UserRoI class_id="23" tracking_level="0" version="0">
 					<Left>4.80000000000000000e+002</Left>
