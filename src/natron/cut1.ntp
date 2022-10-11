@@ -434,7 +434,7 @@
 				<item>
 					<Enabled>1</Enabled>
 					<HasAnimation>0</HasAnimation>
-					<Value>&lt;font size=&quot;6&quot; color=&quot;#000000&quot; face=&quot;Droid Sans&quot;&gt;&lt;Natron&gt;(0121.png)&lt;/Natron&gt;&lt;/font&gt;</Value>
+					<Value>&lt;font size=&quot;6&quot; color=&quot;#000000&quot; face=&quot;Droid Sans&quot;&gt;&lt;Natron&gt;(0104.png)&lt;/Natron&gt;&lt;/font&gt;</Value>
 					<Default></Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
@@ -711,7 +711,7 @@
 				<count>0</count>
 				<item_version>0</item_version>
 			</Inputs_map>
-			<KnobsAge>80</KnobsAge>
+			<KnobsAge>84</KnobsAge>
 			<MasterNode></MasterNode>
 			<HasRotoContext>0</HasRotoContext>
 			<HasTrackerContext>0</HasTrackerContext>
@@ -767,7 +767,7 @@
 				<item>
 					<Enabled>1</Enabled>
 					<HasAnimation>0</HasAnimation>
-					<Value>&lt;font size=&quot;6&quot; color=&quot;#000000&quot; face=&quot;Droid Sans&quot;&gt;&lt;Natron&gt;(0121.png)&lt;/Natron&gt;&lt;/font&gt;</Value>
+					<Value>&lt;font size=&quot;6&quot; color=&quot;#000000&quot; face=&quot;Droid Sans&quot;&gt;&lt;Natron&gt;(0104.png)&lt;/Natron&gt;&lt;/font&gt;</Value>
 					<Default></Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
@@ -1080,7 +1080,7 @@
 				<count>0</count>
 				<item_version>0</item_version>
 			</Inputs_map>
-			<KnobsAge>50</KnobsAge>
+			<KnobsAge>54</KnobsAge>
 			<MasterNode></MasterNode>
 			<HasRotoContext>0</HasRotoContext>
 			<HasTrackerContext>0</HasTrackerContext>
@@ -2022,7 +2022,7 @@
 				<item>
 					<Enabled>1</Enabled>
 					<HasAnimation>0</HasAnimation>
-					<Value>&lt;font size=&quot;6&quot; color=&quot;#000000&quot; face=&quot;Droid Sans&quot;&gt;&lt;Natron&gt;(0121.png)&lt;/Natron&gt;&lt;/font&gt;</Value>
+					<Value>&lt;font size=&quot;6&quot; color=&quot;#000000&quot; face=&quot;Droid Sans&quot;&gt;&lt;Natron&gt;(0104.png)&lt;/Natron&gt;&lt;/font&gt;</Value>
 					<Default></Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
@@ -2450,7 +2450,7 @@
 				<item>
 					<Enabled>1</Enabled>
 					<HasAnimation>0</HasAnimation>
-					<Value>&lt;font size=&quot;6&quot; color=&quot;#000000&quot; face=&quot;Droid Sans&quot;&gt;&lt;Natron&gt;(0121.png)&lt;/Natron&gt;&lt;/font&gt;</Value>
+					<Value>&lt;font size=&quot;6&quot; color=&quot;#000000&quot; face=&quot;Droid Sans&quot;&gt;&lt;Natron&gt;(0104.png)&lt;/Natron&gt;&lt;/font&gt;</Value>
 					<Default></Default>
 					<HasMaster>0</HasMaster>
 					<Expression></Expression>
@@ -2745,7 +2745,7 @@
 				<count>0</count>
 				<item_version>0</item_version>
 			</Inputs_map>
-			<KnobsAge>74</KnobsAge>
+			<KnobsAge>82</KnobsAge>
 			<MasterNode></MasterNode>
 			<HasRotoContext>0</HasRotoContext>
 			<HasTrackerContext>0</HasTrackerContext>
@@ -3281,7 +3281,7 @@
 		<item>
 			<Enabled>0</Enabled>
 			<HasAnimation>0</HasAnimation>
-			<Value>火 10 11 14:46:40 2022</Value>
+			<Value>火 10 11 15:51:09 2022</Value>
 			<Default></Default>
 			<HasMaster>0</HasMaster>
 			<Expression></Expression>
@@ -3307,7 +3307,7 @@
 			<Name></Name>
 		</item>
 	</AdditionalFormats>
-	<Timeline_current_time>121</Timeline_current_time>
+	<Timeline_current_time>104</Timeline_current_time>
 	<CreationDate>1665132844742</CreationDate>
 </Project>
 <ProjectGui class_id="12" tracking_level="0" version="12">
@@ -3559,9 +3559,9 @@
 		<item class_id="21" tracking_level="0" version="0">
 			<first>Viewer1</first>
 			<second class_id="22" tracking_level="0" version="14">
-				<zoomLeft>-9.63446025666304422e+002</zoomLeft>
-				<zoomBottom>-1.72158959441940738e+001</zoomBottom>
-				<zoomFactor>4.35363247863034819e-001</zoomFactor>
+				<zoomLeft>-4.60128541177755551e+002</zoomLeft>
+				<zoomBottom>1.06091674186419368e+002</zoomBottom>
+				<zoomFactor>6.26847799915601578e-001</zoomFactor>
 				<UserRoIEnabled>0</UserRoIEnabled>
 				<UserRoI class_id="23" tracking_level="0" version="0">
 					<Left>4.80000000000000000e+002</Left>
@@ -3607,13 +3607,13 @@
 	<OpenedPanels>
 		<count>10</count>
 		<item_version>0</item_version>
-		<item>Read4</item>
-		<item>Read2</item>
-		<item>Read6</item>
 		<item>Read5</item>
+		<item>Read2</item>
+		<item>Read3</item>
+		<item>Read4</item>
+		<item>Read6</item>
 		<item>Merge5</item>
 		<item>Write1</item>
-		<item>Read3</item>
 		<item>Merge2</item>
 		<item>Merge4</item>
 		<item>Merge1</item>
