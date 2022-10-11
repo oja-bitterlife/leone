@@ -134,7 +134,7 @@
 				<Name>NatronOfxParamProcessR</Name>
 				<Type>Bool</Type>
 				<Dimension>1</Dimension>
-				<Secret>1</Secret>
+				<Secret>0</Secret>
 				<MasterIsAlias>0</MasterIsAlias>
 				<item>
 					<Enabled>0</Enabled>
@@ -151,7 +151,7 @@
 				<Name>NatronOfxParamProcessG</Name>
 				<Type>Bool</Type>
 				<Dimension>1</Dimension>
-				<Secret>1</Secret>
+				<Secret>0</Secret>
 				<MasterIsAlias>0</MasterIsAlias>
 				<item>
 					<Enabled>0</Enabled>
@@ -168,7 +168,7 @@
 				<Name>NatronOfxParamProcessB</Name>
 				<Type>Bool</Type>
 				<Dimension>1</Dimension>
-				<Secret>1</Secret>
+				<Secret>0</Secret>
 				<MasterIsAlias>0</MasterIsAlias>
 				<item>
 					<Enabled>0</Enabled>
@@ -1568,7 +1568,7 @@
 		<item>
 			<Enabled>1</Enabled>
 			<HasAnimation>0</HasAnimation>
-			<Value>192</Value>
+			<Value>204</Value>
 			<Default>250</Default>
 			<HasMaster>0</HasMaster>
 			<Expression></Expression>
@@ -1585,7 +1585,7 @@
 		<item>
 			<Enabled>0</Enabled>
 			<HasAnimation>0</HasAnimation>
-			<Value>月 10 10 23:11:10 2022</Value>
+			<Value>火 10 11 14:46:35 2022</Value>
 			<Default></Default>
 			<HasMaster>0</HasMaster>
 			<Expression></Expression>
@@ -1601,7 +1601,7 @@
 		<count>0</count>
 		<item_version>3</item_version>
 	</AdditionalFormats>
-	<Timeline_current_time>184</Timeline_current_time>
+	<Timeline_current_time>106</Timeline_current_time>
 	<CreationDate>1665408562275</CreationDate>
 </Project>
 <ProjectGui class_id="10" tracking_level="0" version="12">
@@ -1764,7 +1764,7 @@
 				<ZoomOrPanSinceFit>0</ZoomOrPanSinceFit>
 				<CompositingOP>0</CompositingOP>
 				<LeftBound>1</LeftBound>
-				<RightBound>192</RightBound>
+				<RightBound>204</RightBound>
 				<LeftToolbarVisible>1</LeftToolbarVisible>
 				<RightToolbarVisible>1</RightToolbarVisible>
 				<TopToolbarVisible>1</TopToolbarVisible>
@@ -1777,7 +1777,7 @@
 				<Fps>2.40000000000000000e+001</Fps>
 				<FpsLocked>1</FpsLocked>
 				<aInput>0</aInput>
-				<bInput>1</bInput>
+				<bInput>0</bInput>
 				<fullFrame>0</fullFrame>
 			</second>
 		</item>
